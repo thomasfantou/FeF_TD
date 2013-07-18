@@ -1,0 +1,176 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+
+namespace FeF_TD
+{
+    public class Tower
+    {
+        #region Variables
+
+        private Texture2D _sprite;
+        private Vector2 _position;
+        private float _attackSpeed;
+        private int _damage;
+        private float _fearChance;
+        private List<Missile> _missiles;
+        private float _missileSpeed;
+        private string _name;
+        private int _price;
+        private int _range;
+        private float _slowPercentage;
+        private float _slowTime;
+        private bool _splashEffect;
+        private List<Mob> _mobArea; //les mob qui seront affecté par l'AoE
+        private float _stunChance;
+        private float _stunTime;
+        private Mob _targetedMob;
+        private Mob _manualTargetedMob; //si le joueur cible un enemie spécifique
+
+        #endregion
+
+        #region Properties
+
+        public Texture2D Sprite
+        {
+            get { return _sprite; }
+            set { _sprite = value; }
+        }
+
+        public Vector2 Position
+        {
+            get { return _position; }
+            set { _position = value; }
+        }
+
+        public float AttackSpeed
+        {
+            get { return _attackSpeed; }
+            set { _attackSpeed = value; }
+        }
+
+        public int Damage
+        {
+            get { return _damage; }
+            set { _damage = value; }
+        }
+
+        public float FearChance
+        {
+            get { return _fearChance; }
+            set { _fearChance = value; }
+        }
+
+        private List<Missile> Missiles
+        {
+            get { return _missiles; }
+            set { _missiles = value; }
+        }
+
+        public float MissileSpeed
+        {
+            get { return _missileSpeed; }
+            set { _missileSpeed = value; }
+        }
+
+        public string Name
+        {
+            get { return _name; }
+            set { _name = value; }
+        }
+
+        public int Price
+        {
+            get { return _price; }
+            set { _price = value; }
+        }
+
+        public int Range
+        {
+            get { return _range; }
+            set { _range = value; }
+        }
+
+        public float SlowPercentage
+        {
+            get { return _slowPercentage; }
+            set { _slowPercentage = value; }
+        }
+
+        public float SlowTime
+        {
+            get { return _slowTime; }
+            set { _slowTime = value; }
+        }
+
+        public bool SplashEffect
+        {
+            get { return _splashEffect; }
+            set { _splashEffect = value; }
+        }
+
+        private List<Mob> MobArea
+        {
+            get { return _mobArea; }
+            set { _mobArea = value; }
+        }
+
+        public float StunChance
+        {
+            get { return _stunChance; }
+            set { _stunChance = value; }
+        }
+
+        public float StunTime
+        {
+            get { return _stunTime; }
+            set { _stunTime = value; }
+        }
+
+        public Mob TargetedMob
+        {
+            get { return _targetedMob; }
+            set { _targetedMob = value; }
+        }
+
+        public Mob ManualTargetedMob
+        {
+            get { return _manualTargetedMob; }
+            set { _manualTargetedMob = value; }
+        }
+
+        #endregion
+
+        #region Methods
+
+        public Tower()
+        {
+
+        }
+
+        public void Create()
+        {
+
+        }
+
+        public void Delete()
+        {
+
+        }
+
+        public void Update()
+        {
+
+        }
+
+        public void Upgrade()
+        {
+
+        }
+
+        #endregion
+    }
+}

@@ -1,0 +1,53 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework;
+
+namespace FeF_TD
+{
+    public class Interface
+    {
+        #region Variables
+
+        private Texture2D _backgroundSprite;
+        private Texture2D _baseLvlUpSprite;
+        private Texture2D _baseSprite;
+        private Texture2D _baseSpriteClick;
+        private Texture2D _baseSpriteOn;
+        private string _baseString;
+        private Texture2D _goldSprite;
+        private string _goldString;
+        private Vector2 _box1Position;
+        private Vector2 _box2Position;
+        private Vector2 _box3Position;
+        private Texture2D _killSprite;
+        private Texture2D _liveSprite;
+        private string _liveString;
+        private Vector2 _position;
+        private Dictionary<string, int> _playersKillInfo;
+        private Dictionary<Texture2D, string> _towersInfo;
+
+
+        #endregion
+
+        #region Properties
+
+        #endregion
+
+        #region Methods
+
+        public Interface()
+        {
+
+        }
+
+        public void Update()
+        {
+
+        }
+
+        #endregion
+    }
+}

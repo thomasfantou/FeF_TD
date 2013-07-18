@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+<Asset Type="Datas.DataTower">
+  <name>poison6</name> <!-- string  --> 
+  <spritePath>Poison//Poison6</spritePath> <!-- string  -->
+  <price>2500</price> <!-- string  -->
+  <attaqueSpeed>1.9</attaqueSpeed> <!-- float  -->
+  <range>500</range> <!-- int  -->
+  <damage>3000</damage> <!-- int  -->
+  <fearChance>0.7</fearChance> <!-- float < 1  -->
+  <missileSpeed>4.0</missileSpeed> <!-- float  -->
+  <slowPercentage>0.8</slowPercentage> <!-- float < 1  -->
+  <slowTime>5.0</slowTime> <!-- float  -->
+  <splachEffect>false</splachEffect> <!-- bool  -->
+  <stunChance>0.5</stunChance> <!-- float < 1  -->
+  <stunTime>3.0</stunTime> <!-- float  -->
+  <comment>Poison</comment> <!-- string -->
+</Asset>
+</XnaContent>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="Datas.DataBase">
+    <lvl2Price>150</lvl2Price> <!-- int -->
+    <lvl3Price>400</lvl3Price> <!-- int -->
+    <lvl4Price>1000</lvl4Price> <!-- int -->
+    <lvl5Price>1500</lvl5Price> <!-- int -->
+    <lvl6Price>2500</lvl6Price> <!-- int -->
+  </Asset>
+</XnaContent>

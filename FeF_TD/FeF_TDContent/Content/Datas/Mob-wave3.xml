@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+<Asset Type="Datas.DataMob">
+  <name>Magic Sword</name> <!-- string -->
+  <health>175</health> <!-- int -->
+  <resistance>0.1</resistance> <!-- float -->
+  <slowRatio>0.8</slowRatio> <!-- float; 1=100%. Si tour slow de 80%, mob sera slow 80%; 0.5= 50%, mob slow a 40% -->
+  <speed>1.2</speed> <!-- float -->
+  <spritePath>epee-bleu</spritePath> <!-- string: correspond au nom du fichier, animal-couleur-->
+  <gold>5</gold> <!-- int -->
+</Asset>
+</XnaContent>

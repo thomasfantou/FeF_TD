@@ -1,0 +1,103 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+/*
+ *  author tfantou
+ */
+
+namespace FeF_TD
+{
+    public class Player
+    {
+        #region Variables
+
+        private int _gold;
+        private int _kill;
+        private int _live;
+        private string _name;
+        private int _baseLevel;
+        private int _focusedTower;
+        private List<Tower> _towers;
+
+        #endregion
+
+        #region Properties
+
+        public int Gold
+        {
+            get { return _gold; }
+            set { _gold = value; }
+        }
+
+        public int Kill
+        {
+            get { return _kill; }
+            set { _kill = value; }
+        }
+
+        public int Live
+        {
+            get { return _live; }
+            set { _live = value; }
+        }
+
+        public string Name
+        {
+            get { return _name; }
+            set { _name = value; }
+        }
+
+        public int BaseLevel
+        {
+            get { return _baseLevel; }
+            set { _baseLevel = value; }
+        }
+
+        public int FocusedTower
+        {
+            get { return _focusedTower; }
+            set { _focusedTower = value; }
+        }
+
+        private List<Tower> Towers
+        {
+            get { return _towers; }
+            set { _towers = value; }
+        }
+
+        #endregion
+
+        #region Methods
+
+        public Player()
+        {
+
+        }
+
+        public void BaseUpgrade()
+        {
+
+        }
+
+        public void Buy()
+        {
+
+        }
+
+        public void Sell()
+        {
+
+        }
+
+        public void Update()
+        {
+
+        }
+
+
+        #endregion
+
+    }
+}

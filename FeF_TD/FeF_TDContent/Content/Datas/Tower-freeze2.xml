@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+<Asset Type="Datas.DataTower">
+  <name>freeze2</name> <!-- string  --> 
+  <spritePath>Freeze//Freeze2</spritePath> <!-- string  -->
+  <price>300</price> <!-- string  -->
+  <attaqueSpeed>0.9</attaqueSpeed> <!-- float  -->
+  <range>160</range> <!-- int  -->
+  <damage>25</damage> <!-- int  -->
+  <fearChance>0.0</fearChance> <!-- float < 1  -->
+  <missileSpeed>4.0</missileSpeed> <!-- float  -->
+  <slowPercentage>0.7</slowPercentage> <!-- float < 1  -->
+  <slowTime>5.0</slowTime> <!-- float  -->
+  <splachEffect>true</splachEffect> <!-- bool  -->
+  <stunChance>0.0</stunChance> <!-- float < 1  -->
+  <stunTime>0.0</stunTime> <!-- float  -->
+  <comment>Freeze</comment> <!-- string -->
+</Asset>
+</XnaContent>

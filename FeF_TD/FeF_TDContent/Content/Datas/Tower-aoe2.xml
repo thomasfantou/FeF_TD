@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+<Asset Type="Datas.DataTower">
+  <name>aoe2</name> <!-- string  --> 
+  <spritePath>Aoe//Aoe2</spritePath> <!-- string  -->
+  <price>300</price> <!-- string  -->
+  <attaqueSpeed>1.2</attaqueSpeed> <!-- float  -->
+  <range>160</range> <!-- int  -->
+  <damage>75</damage> <!-- int  -->
+  <fearChance>0.0</fearChance> <!-- float < 1  -->
+  <missileSpeed>4.0</missileSpeed> <!-- float  -->
+  <slowPercentage>0.0</slowPercentage> <!-- float < 1  -->
+  <slowTime>0.0</slowTime> <!-- float  -->
+  <splachEffect>true</splachEffect> <!-- bool  -->
+  <stunChance>0.4</stunChance> <!-- float < 1  -->
+  <stunTime>3.0</stunTime> <!-- float  -->
+  <comment>Splash damage</comment> <!-- string -->
+</Asset>
+</XnaContent>

@@ -1,0 +1,53 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace FeF_TD
+{
+    public class Wave
+    {
+        #region Variables
+
+        private List<Mob> _mobs;
+        
+        #endregion
+
+
+        #region Properties
+
+        private List<Mob> Mobs
+        {
+            get { return _mobs; }
+            set { _mobs = value; }
+        }
+
+        #endregion
+
+
+        #region Methods
+
+        public Wave()
+        {
+
+        }
+
+        public void Init()
+        {
+
+        }
+
+        public void Start()
+        {
+
+        }
+
+        public void Update()
+        {
+
+        }
+
+        #endregion
+
+    }
+}

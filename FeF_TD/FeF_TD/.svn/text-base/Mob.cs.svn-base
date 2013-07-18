@@ -1,0 +1,195 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework;
+
+
+/*
+ *  Author Kighten
+ */
+
+
+namespace FeF_TD
+{
+    public class Mob
+    {
+        
+#region variables
+
+        private int _health;
+        private string _name;
+        private Vector2 _position;
+        private float _resistance;
+        private float _slowPercentage;
+        private float _slowTimer;
+        public float SlowTimer;
+        private float _speed;
+        private Texture2D _sprite;
+        private bool _stun;
+        private float _stunTimer;
+        private float _velocity;
+
+
+#endregion
+
+
+#region properties
+        public int Health
+        {
+            get
+            {
+                return _health;
+            }
+            set
+            {
+                _health = value;
+            }
+        }
+
+        public string Name
+        {
+            get
+            {
+                return _name;
+            }
+            set
+            {
+                _name = value;
+            }
+        }
+
+        public Vector2 Position
+        {
+            get
+            {
+                return _position;
+            }
+            set
+            {
+                _position = value;
+            }
+        }
+
+        public float Resistance
+        {
+            get
+            {
+                return _resistance;
+            }
+            set
+            {
+                _resistance = value;
+            }
+        }
+
+        public float SlowPercentage
+        {
+            get
+            {
+                return _slowPercentage;
+            }
+            set
+            {
+                _slowPercentage = value;
+            }
+        }
+
+        public float SlowTimer
+        {
+            get
+            {
+                return _slowTimer;
+            }
+            set
+            {
+                _slowTimer = value;
+            }
+        }
+
+        public float Speed
+        {
+            get
+            {
+                return _speed;
+            }
+            set
+            {
+                _speed = value;
+            }
+        }
+
+        public Texture2D Sprite
+        {
+            get
+            {
+                return _sprite;
+            }
+            set
+            {
+                _sprite = value;
+            }
+        }
+
+        public bool Stun
+        {
+            get
+            {
+                return _stun;
+            }
+            set
+            {
+                _stun = value;
+            }
+        }
+
+        public float StunTimer
+        {
+            get
+            {
+                return _stunTimer;
+            }
+            set
+            {
+                _stunTimer = value;
+            }
+        }
+
+        public float Velocity
+        {
+            get
+            {
+                return _velocity;
+            }
+            set
+            {
+                _velocity = value;
+            }
+        }
+
+
+
+#endregion
+
+#region method
+
+        public Mob()
+        {
+
+        }
+
+        public void HealthLost()
+        {
+
+        }
+
+        public void Update()
+        {
+
+        }
+
+#endregion
+    }
+
+}

@@ -1,0 +1,61 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+
+namespace FeF_TD
+{
+    public class Missile
+    {
+        #region Variables
+
+        private Vector2 _position;
+        private Texture2D _sprite;
+        private float _velocity;
+
+        #endregion
+
+        #region Properties
+
+        public Vector2 Position
+        {
+            get { return _position; }
+            set { _position = value; }
+        }
+
+        public Texture2D Sprite
+        {
+            get { return _sprite; }
+            set { _sprite = value; }
+        }
+
+        public float Velocity
+        {
+            get { return _velocity; }
+            set { _velocity = value; }
+        }
+
+        #endregion
+
+        #region Methods
+
+        public Missile()
+        {
+
+        }
+
+        public void Explode()
+        {
+
+        }
+
+        public void Update()
+        {
+
+        }
+
+        #endregion
+    }
+}

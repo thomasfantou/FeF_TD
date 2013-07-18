@@ -1,0 +1,54 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+
+/*
+ *  Author Kighten
+ */
+
+
+namespace FeF_TD
+{
+    public class World
+    {
+
+#region variables
+
+        private int[] _map;
+        private string _name;
+
+#endregion
+
+
+
+#region properties
+
+        public int[] Map
+        {
+            get { return _map; }
+            set { _map = value; }
+        }
+
+        public string Name
+        {
+            get { return _name; }
+                { _name = value; }
+        }
+
+#endregion
+
+
+
+#region methodes
+
+        public World()
+        {
+
+        }
+
+#endregion
+
+    }
+}
